@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <body bgcolor="skyblue">
+    <form>
+    <div>
+       <label for="fname">Enter your Name</label>
+       <input type="text" id="fname" name="fname" minlenght="3" maxlength="10">
+    </div><br>
+
+    <div>
+       <label for="mypass">Enter your Password</label>
+       <input type="Password" name="mypass" id="mypass" placeholder="Enter Your Password" required>
+    </div><br>
+
+    <div>
+        <label >Enter your EmailId:</label>
+        <input type="myemail" name="myemail" required>
+    </div><br>
+
+    <div>
+        <label>Select Your gender:</label>
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female" checked>female
+        <input type="radio" name="gender" value="transgender">transgender
+    </div><br>
+
+    <div>
+        <label>Select your Qualification</label>
+        <input type="checkbox" name="edu" value="SSC">SSC
+        <input type="checkbox" name="edu" value="HSC">HSC
+        <input type="checkbox" name="edu" value="Graduate">Graduate
+        <input type="checkbox" name="edu" value="pg">pg
+        <input type="checkbox" name="edu" value="phd">phd
+    </div><br>
+
+    <div>
+        <label> Select your Course</label>
+        <select name="mycourse" multiple >
+        <option value="">Select your course</option>
+        <option value="React">React</option>
+        <option value="Java">java</option>
+        <option value="Angular">Angular</option>
+        <option value="python">python</option>
+    </select>
+    </div> <br>
+
+    <div>
+        <label> Enter your feebdack</label>
+        <textarea name="myfeedback" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <label>Selct DOB</label>
+        <input type="date" name="DOB">
+    </div><br>
+
+    <div>
+        <label> upload your profile</label>
+        <input type="file" name="profile">
+    </div><br>
+
+    <div>
+        <label>course fees</label>
+        <input type="text" name="fees" value="106000" readonly>
+    </div><br>
+
+    <div>
+         <button type="submit">submit</button>
+    </div>
+</form>
+</body>
+
+</html>
